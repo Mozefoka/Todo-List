@@ -1,0 +1,92 @@
+body {
+  background-color: #4e6b8f;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.todo-list {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list__inner {
+  width: 500px;
+  min-height: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+input {
+  width: 90%;
+  padding: 6px;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  border: 1.5px solid #4e6b8f;
+}
+
+.input-pop {
+  width: 480px;
+}
+
+.add {
+  width: 42px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #4e6b8f;
+  color: #fff;
+}
+
+.note {
+  position: relative;
+  padding: 6px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1.5px solid #4e6b8f;
+}
+
+.change {
+  position: absolute;
+  width: 10px;
+  background-color: white;
+  transform: translate(420px, -30px);
+  cursor: pointer;
+}
+
+.delete {
+  position: absolute;
+  width: 10px;
+  background-color: white;
+  transform: translate(440px, -30px);
+  cursor: pointer;
+}
+
+.cancel {
+  position: absolute;
+  width: 10px;
+  transform: translate(225px, -24px);
+  background-color: white;
+  cursor: pointer;
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: rgba(78, 107, 143, 0.9);
+}
+
+.pop {
+  display: inline;
+}
